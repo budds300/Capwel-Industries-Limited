@@ -21,23 +21,36 @@ ul{
 }
 h3{
     text-align: center;
-    font-size: large;
+    font-size: 20px;
     font-weight: bold;
-    font-style: inherit;    
+        
 }
 .logo{
     text-align: center;
 }
-body{
+/* body{
 background-image: url(../images/first\ back.jpg);
 opacity: 1;
 background-repeat: no-repeat;
 height: 100%;
 width: 100%;
-background-size: cover;
-}
+background-size: cover; */
+
 .landing-page{
-    height: 60%;
+        
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url("../images/jason-blackeye-zAITDJYV09w-unsplash.jpg");
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .landing-page h1 {
+        padding: 5em 0 0 0;
+        text-align: center;
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
 
 }
 .image-001{
@@ -140,8 +153,8 @@ background-size: cover;
 }
 #para{
     text-align: center;
-    padding: 10px;
-    font-size: initial;
+    padding: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -153,7 +166,7 @@ background-size: cover;
     padding: 400px;
 }
 #work1 #work2 #work3 #overlay #overlay2 #overlay3{
-    display: inline;
+    /* display: inline; */
     opacity: 1;
     color: chartreuse;
     text-align: center;
@@ -169,15 +182,22 @@ h4{
     font-weight: bold;
 }
 .about{
-    padding: 60px;
-    text-align: center;
-    color: black;
-    padding: 100px;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: oblique;
-    font-display: 30px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../images/dominik-vanyi-F1B0-iuAxO4-unsplash.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
+.about h1  {
+    padding: 5em 0 0 0;
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+
 .backabout{
     background-color: white;
 }
@@ -188,7 +208,7 @@ h4{
     margin-left:290px; 
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../image/raback.jpg);
+    background-image: url();
    padding: 20px;
    color: black;
    background-color:rgba(255, 255, 255, 0.456);
@@ -201,7 +221,7 @@ h4{
     padding: 30px;
     opacity: 2;
 }
-@media only screen and (min-width: 625px){
+@media only screen and (max-width: 625px){
     #overlay,#overlay2,#overlay3,#overlay4{
       width: 100%;
       height: 100%;
@@ -217,7 +237,7 @@ h4{
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    
 }
 .we{
     text-align: center;
@@ -237,8 +257,8 @@ h4{
     background-color: khaki;
 }
 ul{
-    font-weight: bolder;
-    font-display: 20px;
+    font-weight:200;
+    
 }
 .what-we-do{
      display: flex; 
@@ -288,7 +308,7 @@ ul{
     font-weight: bold;
 }
 .habib{
-     background-image: url(..); 
+     background-image: url(.); 
 }
 
 
@@ -313,4 +333,16 @@ ul{
     background-image: url(../image/ba.webp);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.next{
+    margin-top: 10rem;
+    padding: 2em;
+}
+.border-top{
+    border-top: 10px black solid;
+    border-bottom: 10px black solid;
+    background-color: yellow;
+    color: black;
+    padding-top: 1em;
+    
 }

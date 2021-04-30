@@ -1,11 +1,11 @@
-* {
+/* * {
     margin: 0%;
     padding: 0px;
-}
+} */
 
 
 .image {
-    background-image: url(../image/pexels-fauxels-3183186.jpg);
+    background-image: url("./image/pexels-fauxels-3183186.jpg");
     background-size: cover;
     padding-top: 300px;
 }
@@ -23,8 +23,7 @@
     text-align: center;
     margin-left: -500px;
     margin-top: 50px;
-    font-style: oblique;
-    font-weight: bold;
+    font-weight:bold;
 }
 
 #sach {
@@ -43,6 +42,7 @@
 
 #button {
     background-color: black;
+    color: yellow;
 }
 
 #button:hover {
@@ -64,3 +64,11 @@
 .copy{
     margin-left: 150px;
 }
+nav{
+    display: flex;
+    margin: 5px;
+    padding-right: 5px;
+    float: right;
+    font-size: larger;
+    font-weight: bold;
+ }

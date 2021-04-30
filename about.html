@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>about us</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script  src="Js/jquery-3.4.1.js"></script>
-    <!-- <link href="ourBrands.css" rel="stylesheet" type="text/css" /> -->
+    <link href="ourBrands.css" rel="stylesheet" type="text/css" />
     
 </head>
 <body>
-    <div class="pinki">
-    <!-- <div class="backabout"> -->
+    <!-- <div class="pinki">
+    <div class="backabout">
     <nav class="menu-mainmenu-container">
     <div class="nav">
         <li id="abt"><a href="home.html">Home</a></li>
@@ -21,7 +22,37 @@
         <li id="bus"><a href="business.html"> For Business </a></li>
         <li id="con"><a href="contact.html"> Contact Us</a></li>
       </ul>
-  </nav>
+  </nav> -->
+  <nav class="navbar oaknet navbar-expand-md  navbar-dark navigation-clean fixed-top  mb-3">
+    <div class="container-fluid text-center ">
+        <!-- <a href="home.html" class="navbar-brand" id="brand-name"> -->
+            <!-- <img class="img-fluid mb-lg-0" src="images/capwell-logo.png" height="70" width="70" alt="capwell-logo"></a> -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bar" aria-controls="#bar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="bar">
+            <ul class="navbar-nav ml-auto ms-auto">
+                <li id="link" class="nav-item ">
+                    <a href="home.html" class="nav-link active text-warning" >HOME</a>
+                </li>
+                <li id="link" class="nav-item ">
+                    <a href="#top" class="nav-link text-warning" >ABOUT</a>
+                </li>
+                <li id="link" class="nav-item ">
+                    <a href="ourBrands.html" class="nav-link text-warning" >OUR BRANDS</a>
+                </li>
+                <li id="link" class="nav-item ">
+                    <a href="business.html" class="nav-link text-warning" >FOR BUSINESS/PARTNERS</a>
+                </li>
+                <li id="link" class="nav-item ">
+                    <a href="contact.html" class="nav-link text-warning">CONTACT US</a>
+                </li>
+            </ul>
+           
+        </div>
+    </div>
+</nav>
+
 
 
 <div class="habib">
@@ -30,26 +61,24 @@
         <h1><strong>
             Capwel Industries Limited
         </strong></h1>
-        <p id="para">Capwel Industries Limited is a leading producer of wheat flour ,maize flour,Rice and even Yola juice in Kenya,<br>including well
+        <p id="para" class="text-white">Capwel Industries Limited is a leading producer of wheat flour ,maize flour,Rice and even Yola juice in Kenya,<br>including well
             known brands such as Soko, Amaize,Ranne and  Yola .
             
         </p>
     </div>
-    <div class="cap">
-      <div class="layout">
+    
+      <div class="text-center container pt-5">
         <h3><strong>Who We Are</strong></h3>
-        <p>We are a family owned enterprise<br>
+        <p>We are a family owned enterprise
             located in Thika town.
             
             Established in 1999,<br> Capwel Industries Limited is one of the oldest flour miller in Kenya.<br> We are very proud of our place among Kenyan Grain Millers because,<br> we play an important role in ensuring the Kenyan market enjoys high quality wheat,<br>maize flour for local needs.</p>
             We produce the Capwel brand<br>  that includes well known brands such as <br>Soko maize flour,Soko Wheat flour,Yola,Soko porridge flour,Spaggetti and Ranne.</p>
         </div>
     </div>
-     <div class="what-we-do"> -->
-         <div class="do">
-            <!-- <img src="./images/bake.jpg"> -->
-        </div>
-        <div class="we">
+    <div class="container">
+     <div class="row"> 
+         <div class="col-md-4 border-top">
             <h4><strong>What We Do</strong></h4>
             <p>Our main production plant is located<br>
                 three kilometers from the Thika<br>
@@ -57,14 +86,13 @@
                 
                 Our location makes it easy<br> for us to serve customers in different parts of Kenya.<br> In addition,<br> we have well developed distribution lines that run <br>deep into the Central region and the Rift Valley,<br> and all the regions in between.</p>
         </div>
-        
 
-    </div>
-    <div class="halima">
-    <div class="mission">
-        <div class="mis">
+   
+    <div class="col-md-4 border-top">
+    <!-- <div class="mission">
+        <div class="mis"> -->
             <h4><strong>Our Mission</strong></h4>
-        </div>
+        <!-- </div> -->
         <div class="on">
             <p>To obtain optimal operational excellence by <br>adopting a culture of continuous improvement.
             <br>hence providing exceptional value to<br> our customers and uplifting their living standards by<br> ensuring that they receive world-class.
@@ -73,9 +101,10 @@
         </div>
 
         </div>
+     
 
-         <div class="vision">
-        <div class="our">
+         <div class="col-md-4 border-top">
+        <div class="ou">
         <h4><strong>Our vision</strong></h4>
         </div>
         <div class="hab">
@@ -84,13 +113,48 @@
 
             </p>
         </div>
+         </div>
       </div>
     </div>
 </div>
+<footer id="footer1" class="">
+    <div class="container text-white text-center next">
+        <!-- <div class="row">
+            <div class="col-md-4 p-5">
+                <img src="./images/logo-full.png" alt="">
+            </div>
+            <div class="col-md-4 text-white p-5"> -->
+                <p>Capwell Industries Limited started its operations in 1999 with a maize milling factory in Thika. We manufacture high quality maize flour, pulses, rice, porridge and wheat flour using the best processes and modern technology available.</p>
+            </div>
+            <!-- <div class="col-md-4 p-5 text-white" >
+                <h3>Contact Us</h3>
+                <p cl>Off Garissa Road,Behind Gretsa University, Makongeni, Thika
 
+                    Telephone:</p>
+                    <p class="yellowish">+254 736 237000
+                        +254 724 237000
+                        +254 20 2055422
+                        +254 20 3596217</p>
+                        <p>Email</p>
+                        <p class="yellowish">admin@capwell.co.ke
+                            sales@capwell.co.ke</p> -->
+            </div>
+        </div>
+     </div>
+     <div class="p-5 text-center" id="yellow"><p></p>
+        <div class="social">
+            <img src="./image/facebook.svg" style="height: 20px;">
+               <img src="./image/linkedin.svg" style="height: 20px;">
+               <img src="./image/linkedin.svg" style="height: 20px;">
+               <img src="./image/skype.svg" style="height: 20px;">
+               <img src="./image/twitter.svg" style="height: 20px;">
+       </div>
+    </div>
+ </footer>
+
+<!-- </div>
 </div>
-</div>
-</div>
-    
+</div> -->
+  <script src="Js/scripts.js"></script>  
 </body>
 </html>
